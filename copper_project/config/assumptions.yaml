@@ -1,0 +1,43 @@
+project:
+  base_currency: CAD
+  research_frequency: monthly
+  forecast_horizon_start: "2026-09-01"
+  forecast_horizon_end: "2031-08-31"
+
+date_handling:
+  standard_date: month_end
+  timezone: America/Toronto
+  duplicate_policy: retain_first_after_validation
+
+missing_data:
+  missing_value_policy: retain_as_nan
+  interpolation_allowed: false
+  forward_fill_allowed: false
+
+copper_price:
+  preferred_series: PCOPPUSDM
+  preferred_vintage_policy: latest_available
+  currency: USD
+  unit: metric_tonne
+  price_type: monthly_period_average
+
+copper_fundamentals:
+  frequency: annual
+  unit: thousand_metric_tonnes
+  refined_balance_formula: refined_production_minus_refined_usage
+  positive_balance_interpretation: surplus
+  negative_balance_interpretation: deficit
+  annual_to_monthly_interpolation: false
+  preliminary_observations_retained: true
+
+returns:
+  price_return_method: logarithmic
+  real_return_method: nominal_return_minus_inflation
+  annualization_basis: 12
+
+hypothesis:
+  bullish_definition:
+    sustained_deficits: true
+    falling_inventories: true
+    delayed_supply_response: true
+    strong_electrification_demand: true
