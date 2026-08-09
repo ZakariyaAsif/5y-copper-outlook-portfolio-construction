@@ -1,0 +1,727 @@
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-CJEMCG1KTJ"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-CJEMCG1KTJ');
+</script>
+
+
+
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-CJEMCG1KTJ"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-CJEMCG1KTJ');
+</script>
+
+
+<HTML xmlns:x="urn:schemas-microsoft-com:office:excel">
+<HEAD>
+</HEAD>
+<BODY>
+</table>
+<table width="80%" border="0" align="center" cellspacing="0">
+  <tr>
+    <td align="center" class="titg">&nbsp;</td>
+  </tr>
+  <tr> 
+    <td align="center" class="titg">TABLA / TABLE 4.1</td>
+  </tr>
+</table>
+<table width="80%" border="0" align="center" cellspacing="0">
+  <tr> 
+    <td align="center" class="tit2">INVENTARIOS DE COBRE EN BOLSAS - ANUAL Y MENSUAL	
+    </td>
+  </tr>
+  <tr> 
+    <td align="center" class="tit2">Exchange Inventories (Yearly and Monthly)</td>
+  </tr>
+  <tr> 
+    <td align="center" class="arial12g">(TM Fin de Per&iacute;odo / MT at Close)</td>
+  </tr>
+  <tr> 
+    <td align="center">&nbsp;</td>
+  </tr>
+</table>
+<table width="90%" border="0" align="center" cellpadding="3" cellspacing="1">
+  <tr> 
+    <td rowspan="3" nowrap bgcolor="#c3551e" class="titar12b">INVENTARIOS A FIN 
+      DE PERIODO / <br>
+      EXCHANGE INVENTORIES AT CLOSE</td>
+    <td colspan="2" align="center" bgcolor="#c3551e" class="titar12b"> BML / LME</td>
+    <td colspan="2" align="center" bgcolor="#c3551e" class="titar12b">COMEX</td>
+    <td colspan="2" align="center" bgcolor="#c3551e" class="titar12b">SHFE</td>
+    <td align="center" class="titar12b">&nbsp;</td>
+    <td align="center" class="titar12b">&nbsp;</td>
+  </tr>
+  <tr> 
+    <td colspan="2" align="center" valign="top" bgcolor="#b44f22" class="tit11b">LONDON 
+      METAL EXCHANGE</td>
+    <td colspan="2" align="center" valign="top" bgcolor="#b44f22" class="tit11b"> 
+      NEW YORK MERCANTILE EXCHANGE</td>
+    <td colspan="2" align="center" valign="top" bgcolor="#b44f22" class="tit11b"> 
+      SHANGHAI FUTURES EXCHANGE</td>
+    <td align="center" class="tit11b">&nbsp;</td>
+    <td align="center" class="tit11b">&nbsp;</td>
+  </tr>
+  <tr> 
+    <td width="15%" align="center" valign="top" bgcolor="#b44f22" class="tit11b"> 
+      TOTAL</td>
+    <td width="15%" align="center" valign="top" bgcolor="#b44f22" class="tit11b">Variaci&oacute;n 
+      / Change</td>
+    <td width="15%" align="center" valign="top" bgcolor="#b44f22" class="tit11b"> 
+      TOTAL<br></td>
+    <td width="15%" align="center" valign="top" bgcolor="#b44f22" class="tit11b"> 
+      Variaci&oacute;n / Change</td>
+    <td width="15%" align="center" valign="top" bgcolor="#b44f22" class="tit11b">TOTAL<br></td>
+    <td width="15%" align="center" valign="top" bgcolor="#b44f22" class="tit11b"> 
+      Variaci&oacute;n / Change</td>
+    <td width="15%" align="center" valign="top" bgcolor="#b44f22" class="tit11b">TOTAL</td>
+    <td width="15%" align="center" valign="top" bgcolor="#b44f22" class="tit11b">Variaci&oacute;n 
+      / Change</td>
+  </tr>
+  <tr> 
+    <td bgcolor="#F1F1EF" class="tit11n">
+	  2022<br>
+      2023<br>
+      2024<br>
+      2025</td>
+    <td align="center" bgcolor="#F1F1EF" class="arial11">
+	  88.925<br>
+      167.300<br>
+      271.400<br>
+      147.425</td>
+    <td align="center" bgcolor="#F1F1EF" class="arial11">
+	  -25<br>
+      78.375<br>
+      104.100<br>
+      -123.975</td>
+    <td align="center" bgcolor="#F1F1EF" class="arial11"> 
+	  31.834<br>
+      17.064<br>
+      84.514<br>
+      451.833</td>
+    <td align="center" bgcolor="#F1F1EF" class="arial11">
+	  -31.367<br>
+      -14.770<br>
+      67.450<br>
+      367.319</td>
+    <td align="center" bgcolor="#F1F1EF" class="arial11">
+  	  69.268<br>
+      30.905<br>
+      74.172<br>
+      111.703</td>
+    <td align="center" bgcolor="#F1F1EF" class="arial11">
+	  31.086<br>
+      -38.363<br>
+      43.267<br>
+      37.531</td>
+    <td align="center" bgcolor="#F1F1EF" class="arial11">
+  	  190.027<br>
+      215.269<br>
+      430.086<br>
+      710.961</td>
+    <td align="center" bgcolor="#F1F1EF" class="arial11">
+	  -306<br>
+      25.242<br>
+      214.817<br>
+      280.875</td>
+  </tr>
+  <tr bgcolor="#F8F8F8"> 
+    <td class="tit11n"><br> </td>
+    <td align="center" class="arial11"><br> </td>
+    <td align="center" class="arial11">&nbsp;</td>
+    <td align="center" class="arial11"><br> </td>
+    <td align="center" class="arial11"><br> </td>
+    <td align="center" class="arial11">&nbsp;</td>
+    <td align="center" class="arial11">&nbsp;</td>
+    <td align="center" class="arial11">&nbsp;</td>
+    <td align="center" class="arial11">&nbsp;</td>
+  </tr>
+  <tr> 
+    <td bgcolor="#F1F1EF" class="tit11n">ENE/JAN 2023<br>
+      FEB<br>
+      MAR<br>
+      ABR/APR<br>
+      MAY<br>
+      JUN<br>
+      JUL<br>
+      AGO/AUG<br>
+      SEP<br>
+      OCT<br>
+      NOV<br>
+      DIC/DEC<br> </td>
+    <td align="center" bgcolor="#F1F1EF" class="arial11"> 
+	  75.225 <br>
+	  64.100 <br>
+	  64.725 <br>
+	  64.550 <br>
+	  99.150 <br>
+	  72.975 <br>
+	  68.350 <br>
+	  102.900 <br>
+	  167.825 <br>
+	  176.475 <br>
+	  175.250 <br>
+	  167.300 </td>
+    <td align="center" bgcolor="#F1F1EF" class="arial11">
+	  -13.700 <br>
+	  -11.125 <br>
+	  625 <br>
+	  -175 <br>
+	  34.600 <br>
+	  -26.175 <br>
+	  -4.625 <br>
+	  34.550 <br>
+	  64.925 <br>
+	  8.650 <br>
+	  -1.225 <br>
+	  -7.950 </td>
+    <td align="center" bgcolor="#F1F1EF" class="arial11"> 
+	  25.894 <br>
+	  15.487 <br>
+	  15.008 <br>
+	  25.081 <br>
+	  25.131 <br>
+	  30.780 <br>
+	  39.426 <br>
+	  29.396 <br>
+	  22.987 <br>
+	  19.886 <br>
+	  17.831 <br>
+	  17.064 </td>
+    <td align="center" bgcolor="#F1F1EF" class="arial11">
+	  -5.940 <br>
+	  -10.407 <br>
+	  -479 <br>
+	  10.073 <br>
+	  50 <br>
+	  5.649 <br>
+	  8.646 <br>
+	  -10.030 <br>
+	  -6.409 <br>
+	  -3.101 <br>
+	  -2.055 <br>
+	  -767 </td>
+    <td align="center" bgcolor="#F1F1EF" class="arial11">
+	  139.967 <br>
+	  252.455 <br>
+	  156.576 <br>
+	  137.095 <br>
+	  86.648 <br>
+	  68.313 <br>
+	  61.290 <br>
+	  46.591 <br>
+	  38.996 <br>
+	  36.408 <br>
+	  26.149 <br>
+	  30.905 </td>
+    <td align="center" bgcolor="#F1F1EF" class="arial11">
+	  70.699 <br>
+	  112.488 <br>
+	  -95.879 <br>
+	  -19.481 <br>
+	  -50.447 <br>
+	  -18.335 <br>
+	  -7.023 <br>
+	  -14.699 <br>
+	  -7.595 <br>
+	  -2.588 <br>
+	  -10.259 <br>
+	  4.756 </td>
+    <td align="center" bgcolor="#F1F1EF" class="arial11">
+	  241.086 <br>
+	  332.042 <br>
+	  236.309 <br>
+	  226.726 <br>
+	  210.929 <br>
+	  172.068 <br>
+	  169.066 <br>
+	  178.887 <br>
+	  229.808 <br>
+	  232.769 <br>
+	  219.230 <br>
+	  215.269 </td>
+    <td align="center" bgcolor="#F1F1EF" class="arial11">
+	  51.059 <br>
+	  90.956 <br>
+	  -95.733 <br>
+	  -9.583 <br>
+	  -15.797 <br>
+	  -38.861 <br>
+	  -3.002 <br>
+	  9.821 <br>
+	  50.921 <br>
+	  2.961 <br>
+	  -13.539 <br>
+	  -3.961 </td>
+  </tr>
+  <tr bgcolor="#F8F8F8"> 
+    <td class="tit11n">&nbsp;</td>
+    <td align="center" class="arial11">&nbsp;</td>
+    <td align="center" class="arial11">&nbsp;</td>
+    <td align="center" class="arial11">&nbsp;</td>
+    <td align="center" class="arial11">&nbsp;</td>
+    <td align="center" class="arial11">&nbsp;</td>
+    <td align="center" class="arial11">&nbsp;</td>
+    <td align="center" class="arial11">&nbsp;</td>
+    <td align="center" class="arial11">&nbsp;</td>
+  </tr>
+  <tr> 
+    <td bgcolor="#F1F1EF" class="tit11n">ENE/JAN 2024<br>
+      FEB<br>
+      MAR<br>
+      ABR/APR<br>
+      MAY<br>
+      JUN<br>
+      JUL<br>
+      AGO/AUG<br>
+      SEP<br>
+      OCT<br>
+      NOV<br>
+      DIC/DEC</td>
+    <td align="center" bgcolor="#F1F1EF" class="arial11"> 
+	  146.475 <br>
+	  122.675 <br>
+	  112.475 <br>
+	  116.126 <br>
+	  116.475 <br>
+	  180.125 <br>
+	  239.275 <br>
+	  320.925 <br>
+	  300.600 <br>
+	  271.375 <br>
+	  271.000 <br>
+	  271.400 </td>
+    <td align="center" bgcolor="#F1F1EF" class="arial11">
+	  -20.825 <br>
+	  -23.800 <br>
+	  -10.200 <br>
+	  3.651 <br>
+	  349 <br>
+	  63.650 <br>
+	  59.150 <br>
+	  81.650 <br>
+	  -20.325 <br>
+	  -29.225 <br>
+	  -375 <br>
+	  400 </td>
+    <td align="center" bgcolor="#F1F1EF" class="arial11"> 
+	  21.993 <br>
+	  26.336 <br>
+	  27.269 <br>
+	  22.135 <br>
+	  15.066 <br>
+	  8.206 <br>
+	  13.354 <br>
+	  36.394 <br>
+	  57.647 <br>
+	  80.485 <br>
+	  82.278 <br>
+	  84.514 </td>
+    <td align="center" bgcolor="#F1F1EF" class="arial11">
+	  4.929 <br>
+	  4.343 <br>
+	  933 <br>
+	  -5.134 <br>
+	  -7.069 <br>
+	  -6.860 <br>
+	  5.148 <br>
+	  23.040 <br>
+	  21.253 <br>
+	  22.838 <br>
+	  1.793 <br>
+	  2.236 </td>
+    <td align="center" bgcolor="#F1F1EF" class="arial11">
+	  50.532 <br>
+	  214.487 <br>
+	  290.228 <br>
+	  287.498 <br>
+	  321.695 <br>
+	  319.521 <br>
+	  301.203 <br>
+	  241.745 <br>
+	  141.625 <br>
+	  153.221 <br>
+	  108.775 <br>
+	  74.172 </td>
+    <td align="center" bgcolor="#F1F1EF" class="arial11">
+	  19.627 <br>
+	  163.955 <br>
+	  75.741 <br>
+	  -2.730 <br>
+	  34.197 <br>
+	  -2.174 <br>
+	  -18.318 <br>
+	  -59.458 <br>
+	  -100.120 <br>
+	  11.596 <br>
+	  -44.446 <br>
+	  -34.603 </td>
+    <td align="center" bgcolor="#F1F1EF" class="arial11">
+	  219.000 <br>
+	  363.498 <br>
+	  429.972 <br>
+	  425.759 <br>
+	  453.236 <br>
+	  507.852 <br>
+	  553.832 <br>
+	  599.064 <br>
+	  499.872 <br>
+	  505.081 <br>
+	  462.053 <br>
+	  430.086 </td>
+    <td align="center" bgcolor="#F1F1EF" class="arial11">
+	  3.731 <br>
+	  144.498 <br>
+	  66.474 <br>
+	  -4.213 <br>
+	  27.477 <br>
+	  54.616 <br>
+	  45.980 <br>
+	  45.232 <br>
+	  -99.192 <br>
+	  5.209 <br>
+	  -43.028 <br>
+	  -31.967 </td>
+  </tr>
+  <tr bgcolor="#F8F8F8"> 
+    <td class="tit11n">&nbsp;</td>
+    <td align="center" class="arial11">&nbsp;</td>
+    <td align="center" class="arial11">&nbsp;</td>
+    <td align="center" class="arial11">&nbsp;</td>
+    <td align="center" class="arial11">&nbsp;</td>
+    <td align="center" class="arial11">&nbsp;</td>
+    <td align="center" class="arial11">&nbsp;</td>
+    <td align="center" class="arial11">&nbsp;</td>
+    <td align="center" class="arial11">&nbsp;</td>
+  </tr>
+  <tr> 
+    <td bgcolor="#F1F1EF" class="tit11n">ENE/JAN 2025<br>
+      FEB<br>
+      MAR<br>
+      ABR/APR<br>
+      MAY<br>
+      JUN<br>
+      JUL<br>
+      AGO/AUG<br>
+      SEP<br>
+      OCT<br>
+      NOV<br>
+      DIC/DEC</td>
+    <td align="center" bgcolor="#F1F1EF" class="arial11"> 
+	  256.225 <br>
+	  262.075 <br>
+	  211.375 <br>
+	  200.150 <br>
+	  149.875 <br>
+	  90.625 <br>
+	  138.200 <br>
+	  158.900 <br>
+	  143.400 <br>
+	  134.625 <br>
+	  159.425 <br>
+	  147.425 </td>
+    <td align="center" bgcolor="#F1F1EF" class="arial11">
+	  -15.175 <br>
+	  5.850 <br>
+	  -50.700 <br>
+	  -11.225 <br>
+	  -50.275 <br>
+	  -59.250 <br>
+	  47.575 <br>
+	  20.700 <br>
+	  -15.500 <br>
+	  -8.775 <br>
+	  24.800 <br>
+	  -12.000 </td>
+    <td align="center" bgcolor="#F1F1EF" class="arial11"> 
+	  89.119 <br>
+	  84.805 <br>
+	  87.249 <br>
+	  130.656 <br>
+	  163.864 <br>
+	  191.606 <br>
+	  233.977 <br>
+	  252.055 <br>
+	  294.007 <br>
+	  322.649 <br>
+	  379.863 <br>
+	  451.833 </td>
+    <td align="center" bgcolor="#F1F1EF" class="arial11">
+	  4.605 <br>
+	  -4.314 <br>
+	  2.444 <br>
+	  43.407 <br>
+	  33.208 <br>
+	  27.742 <br>
+	  42.371 <br>
+	  18.078 <br>
+	  41.952 <br>
+	  28.642 <br>
+	  57.214 <br>
+	  71.970 </td>
+    <td align="center" bgcolor="#F1F1EF" class="arial11">
+	  98.049 <br>
+	  268.337 <br>
+	  235.296 <br>
+	  89.307 <br>
+	  105.791 <br>
+	  81.550 <br>
+	  72.543 <br>
+	  79.748 <br>
+	  95.034 <br>
+	  116.140 <br>
+	  97.930 <br>
+	  111.703 </td>
+    <td align="center" bgcolor="#F1F1EF" class="arial11">
+	  23.877 <br>
+	  170.288 <br>
+	  -33.041 <br>
+	  -145.989 <br>
+	  16.484 <br>
+	  -24.241 <br>
+	  -9.007 <br>
+	  7.205 <br>
+	  15.286 <br>
+	  21.106 <br>
+	  -18.210 <br>
+	  13.773 </td>
+    <td align="center" bgcolor="#F1F1EF" class="arial11">
+	  443.393 <br>
+	  615.217 <br>
+	  533.920 <br>
+	  420.113 <br>
+	  419.530 <br>
+	  363.781 <br>
+	  444.720 <br>
+	  490.703 <br>
+	  532.441 <br>
+	  573.414 <br>
+	  637.218 <br>
+	  710.961 </td>
+    <td align="center" bgcolor="#F1F1EF" class="arial11">
+	  13.307 <br>
+	  171.824 <br>
+	  -81.297 <br>
+	  -113.807 <br>
+	  -583 <br>
+	  -55.749 <br>
+	  80.939 <br>
+	  45.983 <br>
+	  41.738 <br>
+	  40.973 <br>
+	  63.804 <br>
+	  73.743 </td>
+  </tr>
+  <tr bgcolor="#F8F8F8"> 
+    <td class="tit11n">&nbsp;</td>
+    <td align="center" class="arial11">&nbsp;</td>
+    <td align="center" class="arial11">&nbsp;</td>
+    <td align="center" class="arial11">&nbsp;</td>
+    <td align="center" class="arial11">&nbsp;</td>
+    <td align="center" class="arial11">&nbsp;</td>
+    <td align="center" class="arial11">&nbsp;</td>
+    <td align="center" class="arial11">&nbsp;</td>
+    <td align="center" class="arial11">&nbsp;</td>
+  </tr>
+  <tr valign="top"> 
+    <td bgcolor="#F1F1EF" class="tit11n">ENE/JAN 2026<br>
+      FEB<br>
+      MAR<br>
+      ABR/APR<br>
+      MAY<br>
+      JUN<br>
+      JUL<br>
+      AGO/AUG<br>
+      SEP<br>
+      OCT<br>
+      NOV<br>
+      DIC/DEC</td>
+    <td align="center" bgcolor="#F1F1EF" class="arial11"> 
+	  174.975 <br>
+	  253.700 <br>
+	  362.425 <br>
+	  399.725 <br>
+	   <br>
+	   <br>
+	   <br>
+	   <br>
+	   <br>
+	   <br>
+	   <br>
+	   </td>
+    <td align="center" bgcolor="#F1F1EF" class="arial11">
+	  27.550 <br>
+	  78.725 <br>
+	  108.725 <br>
+	  37.300 <br>
+	   <br>
+	   <br>
+	   <br>
+	   <br>
+	   <br>
+	   <br>
+	   <br>
+	   </td>
+    <td align="center" bgcolor="#F1F1EF" class="arial11"> 
+	  524.103 <br>
+	  545.709 <br>
+	  532.668 <br>
+	  554.730 <br>
+	   <br>
+	   <br>
+	   <br>
+	   <br>
+	   <br>
+	   <br>
+	   <br>
+	   </td>
+    <td align="center" bgcolor="#F1F1EF" class="arial11">
+	  72.270 <br>
+	  21.606 <br>
+	  -13.041 <br>
+	  22.062 <br>
+	   <br>
+	   <br>
+	   <br>
+	   <br>
+	   <br>
+	   <br>
+	   <br>
+	   </td>
+    <td align="center" bgcolor="#F1F1EF" class="arial11">
+	  233.004 <br>
+	  391.529 <br>
+	  359.135 <br>
+	  192.025 <br>
+	   <br>
+	   <br>
+	   <br>
+	   <br>
+	   <br>
+	   <br>
+	   <br>
+	   </td>
+    <td align="center" bgcolor="#F1F1EF" class="arial11">
+	  121.301 <br>
+	  158.525 <br>
+	  -32.394 <br>
+	  -167.110 <br>
+	   <br>
+	   <br>
+	   <br>
+	   <br>
+	   <br>
+	   <br>
+	   <br>
+	   </td>
+    <td align="center" bgcolor="#F1F1EF" class="arial11">
+	  932.082 <br>
+	  1.190.938 <br>
+	  1.254.228 <br>
+	  1.146.480 <br>
+	   <br>
+	   <br>
+	   <br>
+	   <br>
+	   <br>
+	   <br>
+	   <br>
+	   </td>
+    <td align="center" bgcolor="#F1F1EF" class="arial11">
+	  221.121 <br>
+	  258.856 <br>
+	  63.290 <br>
+	  -107.748 <br>
+	   <br>
+	   <br>
+	   <br>
+	   <br>
+	   <br>
+	   <br>
+	   <br>
+	   </td>
+  </tr>
+  <tr bgcolor="#F8F8F8"> 
+    <td class="tit11n">&nbsp;</td>
+    <td align="center" class="arial11">&nbsp;</td>
+    <td align="center" class="arial11">&nbsp;</td>
+    <td align="center" class="arial11">&nbsp;</td>
+    <td align="center" class="arial11">&nbsp;</td>
+    <td align="center" class="arial11">&nbsp;</td>
+    <td align="center" class="arial11">&nbsp;</td>
+    <td align="center" class="arial11">&nbsp;</td>
+    <td align="center" class="arial11">&nbsp;</td>
+  </tr>
+  <tr> 
+    <td bgcolor="#F1F1EF" class="tit11n">
+	  Abril/April 2026<br>
+      Abril/April 2025</td>
+    <td align="center" bgcolor="#F1F1EF" class="arial11">
+	  399.725<br>
+	  200.150</td>
+    <td align="center" bgcolor="#F1F1EF" class="arial11">&nbsp;</td>
+    <td align="center" bgcolor="#F1F1EF" class="arial11">
+	  554.730<br>
+	  130.656</td>
+    <td align="center" bgcolor="#F1F1EF" class="arial11">&nbsp;</td>
+    <td align="center" bgcolor="#F1F1EF" class="arial11"> 
+ 	  192.025<br>
+	  89.307</td>
+    <td align="center" bgcolor="#F1F1EF" class="arial11">&nbsp;</td>
+    <td align="center" bgcolor="#F1F1EF" class="arial11">
+   	  1.146.480<br>
+	  420.113</td>
+    <td align="center" bgcolor="#F1F1EF" class="arial11">&nbsp;</td>
+  </tr>
+  <tr bgcolor="#F8F8F8"> 
+    <td class="tit11n">&nbsp;</td>
+    <td align="center" class="arial11">&nbsp;</td>
+    <td align="center" class="arial11">&nbsp;</td>
+    <td align="center" class="arial11">&nbsp;</td>
+    <td align="center" class="arial11">&nbsp;</td>
+    <td align="center" class="arial11">&nbsp;</td>
+    <td align="center" class="arial11">&nbsp;</td>
+    <td align="center" class="arial11">&nbsp;</td>
+    <td align="center" class="arial11">&nbsp;</td>
+  </tr>
+  <tr valign="top"> 
+    <td nowrap bgcolor="#F1F1EF" class="tit11n">VARIACION % / Percent Change<br>
+      Abril/April 2026-2025<br></td>
+    <td align="center" valign="bottom" bgcolor="#F1F1EF" class="arial11">99,7</td>
+    <td align="center" valign="bottom" bgcolor="#F1F1EF" class="arial11">&nbsp;</td>
+    <td align="center" valign="bottom" bgcolor="#F1F1EF" class="arial11">324,6</td>
+    <td align="center" valign="bottom" bgcolor="#F1F1EF" class="arial11">&nbsp;</td>
+    <td align="center" valign="bottom" bgcolor="#F1F1EF" class="arial11">115,0</td>
+    <td align="center" valign="bottom" bgcolor="#F1F1EF" class="arial11">&nbsp;</td>
+    <td align="center" valign="bottom" bgcolor="#F1F1EF" class="arial11">172,9</td>
+    <td align="center" valign="bottom" bgcolor="#F1F1EF" class="arial11">&nbsp;</td>
+  </tr>
+</table>
+<table width="80%" border="0" align="center">
+  <tr> 
+    <td>&nbsp;</td>
+  </tr>
+  <tr> 
+    <td class="arial11"><table width="100%" border="0" cellpadding="0" cellspacing="0">
+        <tr> 
+          <td bgcolor="#F7BA73"><img src="images/pixtrans.gif" width="1" height="1"></td>
+        </tr>
+      </table></td>
+  </tr>
+  <tr> 
+    <td class="arial11">Fuente / Source: Elaborado por la Comisi&oacute;n Chilena 
+      del Cobre, sobre la base de informaci&oacute;n BML , COMEX y SHFE, obtenida 
+      a trav&eacute;s de Reuters. / Chilean Copper Commission, based on LME, COMEX 
+      and SHFE data reported by Reuters.</td>
+  </tr>
+
+</BODY>
+</HTML>
