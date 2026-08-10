@@ -1,47 +1,61 @@
 # Five-Year Copper Outlook & Portfolio Reconstruction
 
-An evidence-based research project evaluating a five-year copper investment thesis and its implications for portfolio construction.
+## Overview
 
-**Research horizon:** 1 September 2026 to 31 August 2031  
-**Status:** In progress, data construction and validation
+This project develops and tests a five-year investment thesis for copper, then uses the evidence to evaluate and reconstruct a personal portfolio around that thesis. The analysis period for the forward-looking thesis is **1 September 2026 to 31 August 2031**.
 
-## Objective
+The project has three connected objectives:
 
-This project investigates whether copper is likely to deliver a positive real return over the next five years, then evaluates how that outlook may translate into returns and risk exposures for copper-mining equities and related securities.
+1. Evaluate whether copper is likely to generate a positive real return over the five-year horizon, given refined-copper demand, supply, inventories, and related market conditions.
+2. Diagnose the risk and factor characteristics of the current portfolio.
+3. Develop and compare alternative, risk-aware portfolio allocations that express a bullish copper view while managing concentration, cyclicality, and downside risk.
 
-The project has three objectives:
+This is an educational research project and not investment advice.
 
-1. Test the fundamental copper-market hypothesis.
-2. Establish a baseline analysis of the current portfolio.
-3. Develop two to three alternative allocation strategies centred on the copper thesis.
-
-The work is also intended as a practical application of CFA Level I concepts, including financial statement analysis, portfolio management, and quantitative methods.
-
-## Copper Hypothesis
+## Thesis
 
 > Copper will deliver a positive real return over the next five years because expected refined-copper demand growth and supply constraints will tighten the market relative to its historical balance.
 
-Scenario framework:
+The thesis is evaluated through bull, base, and bear scenarios.
 
-- **Bull:** sustained refined-market deficits, declining inventories, delayed supply response, and strong electrification/grid demand.
-- **Base:** broadly balanced market with modest, cyclical copper appreciation.
-- **Bear:** weak industrial activity, Chinese construction weakness, substitution or recycling, or faster-than-expected mine supply.
+- **Bull:** sustained refined-market deficits, declining inventories, delayed supply response, and strong grid/electrification demand.
+- **Base:** a broadly balanced market with modest but cyclical copper appreciation.
+- **Bear:** weak global industrial activity, Chinese construction weakness, greater substitution or recycling, and/or a faster mine-supply response.
 
 ## Methodology
 
-The project combines quantitative analysis and qualitative industry research.
+### 1. Copper-market research
 
-Core areas include:
+The core dataset combines cleaned, auditable series on copper prices and fundamentals. It includes refined production, refined usage, derived refined balance, mine production, secondary refined production, and exchange inventory data. Series are collected, cleaned, validated, and documented individually before being merged at an appropriate common frequency.
 
-- Copper-price and real-return analysis.
-- Refined copper production, usage, market balance, mine supply, and secondary supply.
-- LME, COMEX, and SHFE exchange inventories.
-- Chinese copper imports, treatment and refining charges, and other market-tightness indicators.
-- Supply-demand and inventory analysis.
-- CAPM and multi-factor analysis of the existing portfolio and prospective copper-related securities.
-- Portfolio allocation analysis under alternative risk-return assumptions.
+### 2. Portfolio baseline diagnosis
 
-## Repository Structure
+The existing portfolio will be reconstructed using current holdings and CAD market values. CAPM and multi-factor regressions will assess exposure to the Canadian equity market, materials/mining sector, small-cap/speculative equities, commodity prices, USD/CAD, and other relevant macro factors.
+
+### 3. Portfolio construction
+
+Three alternative portfolios will be created:
+
+- **Conservative:** controlled copper exposure with greater diversification and hedging.
+- **Balanced:** meaningful copper tilt while retaining broad risk diversification.
+- **High-conviction copper:** highest copper-related exposure, accepting greater concentration and drawdown risk.
+
+The portfolios will be constructed using a **constrained Black–Litterman-style mean-variance optimisation** framework. Market-implied or CAPM-informed return estimates form the prior; scenario-based copper views provide explicit, confidence-weighted adjustments. Constraints will address long-only allocation, issuer concentration, copper-sleeve exposure, liquidity/speculation, turnover, cash/futures exposure, and a separate derivatives risk budget.
+
+MVO outputs will be compared with simpler benchmark allocations, including the current portfolio, an equal-weighted eligible universe, and a minimum-variance portfolio. The three portfolios will then be tested under bull, base, and bear copper scenarios and specific stress events such as copper-price declines, China-demand shocks, broad-market drawdowns, and FX shocks.
+
+## Data governance
+
+The project follows a raw-to-processed data workflow:
+
+1. Preserve downloaded source files in `data/raw/`.
+2. Clean and validate each series in `src/data_processing.ipynb`.
+3. Save cleaned outputs in `data/processed/`.
+4. Maintain source, definition, units, transformations, assumptions, and validation evidence in the metadata and configuration files.
+
+Digitised chart data are explicitly identified as approximations and are not treated as equivalent to source-tabulated observations.
+
+## Repository structure
 
 ```text
 copper_project/
@@ -53,87 +67,44 @@ copper_project/
 │   │   └── source_register.csv
 │   ├── processed/
 │   │   ├── copper_price_monthly.csv
-│   │   ├── copper_fundamentals_annual_analysis.csv
 │   │   ├── icsg_world_copper_production_usage_annual_clean.csv
+│   │   ├── secondary_refined_production_annual_digitized.csv
 │   │   ├── lme_copper_inventory_canonical_clean.csv
 │   │   └── ...
 │   └── raw/
 │       ├── lme_inventory_reports/
-│       ├── alfredgraph.csv
-│       ├── cochilco_copper_inventories_exchanges.xls
-│       ├── icsg_factbook_2025_raw_annex.pdf
 │       └── ...
 ├── src/
 │   └── data_processing.ipynb
 └── README.md
 ```
 
-## Data Design
+## Current data coverage
 
-Raw source files are preserved without modification. Each source is cleaned into a source-specific processed dataset before being used in a canonical series or final analysis.
+Processed data currently include:
 
-The repository uses:
+- monthly copper price data sourced via ALFRED/IMF;
+- annual ICSG global copper mine production, refined production, and refined usage data;
+- an annual refined-balance series derived as refined production less refined usage;
+- a digitised annual secondary-refined-production estimate, clearly labelled as approximate;
+- annual copper exchange inventories through 2022;
+- monthly LME inventory observations from 2023 onward; and
+- a canonical LME inventory series that joins the annual historical and monthly recent segments with documented source provenance.
 
-- `config/assumptions.yaml` — project, date-handling, and modelling assumptions.
-- `data/metadata/data_dictionary.csv` — definitions, units, frequencies, transformations, and expected coverage for each variable.
-- `data/metadata/source_register.csv` — source provenance, access details, methodology notes, and revision policy.
-- Validation outputs — checks for coverage, duplicates, missing data, source agreement, and frequency transitions.
+## Reproducibility and validation
 
-No interpolation or forward-filling is used unless explicitly documented.
+Each processed series is accompanied by source and transformation metadata. Validation checks include date uniqueness, expected coverage, missing observations, numeric conversion, unit consistency, comparison of overlapping sources where available, and boundary diagnostics at source transitions.
 
-## Current Data Coverage
+Future portfolio-optimisation inputs will additionally require an explicit investible-universe table, historical CAD return series, current portfolio weights, market-cap/reference weights, risk-free-rate data, factor series, scenario views, and configurable allocation constraints.
 
-Current processed datasets include:
+## Planned outputs
 
-- Monthly copper prices from ALFRED/IMF (`PCOPPUSDM`), in USD per metric tonne.
-- Annual ICSG mine production, refined production, and refined copper usage data.
-- Derived refined-copper market balance.
-- Secondary refined-copper production, digitized from an ICSG chart and labelled as approximate.
-- Annual exchange inventories through 2022.
-- A canonical LME copper inventory series combining:
-  - annual Copper Council observations through 2022; and
-  - monthly Cochilco/Reuters observations from January 2023 onward.
+The final written report will contain:
 
-The annual-to-monthly LME transition is retained explicitly through source and observation-frequency fields. Annual data is not artificially converted into monthly data.
-
-## Validation Principles
-
-- Dates are standardized to calendar year-end or month-end.
-- Observations are checked for duplicates, missing values, and expected coverage.
-- Cross-source validation is performed where sources overlap.
-- Source-transition boundary diagnostics are performed where direct overlap is unavailable.
-- Digitized chart data is treated as approximate, not exact.
-- Source-specific cleaned datasets remain available after canonical series are created.
-
-## Running the Notebook
-
-Install the required Python packages in your environment:
-
-```bash
-pip install pandas numpy pdfplumber lxml xlrd jupyter
-```
-
-Then launch Jupyter and open the data-processing notebook:
-
-```bash
-jupyter notebook src/data_processing.ipynb
-```
-
-Run the notebook from top to bottom when reproducing the data-cleaning workflow.
-
-## Key Sources
-
-- [ALFRED / IMF Primary Commodity Prices](https://alfred.stlouisfed.org/series?seid=PCOPPUSDM)
-- [International Copper Study Group](https://icsg.org/)
-- [Chilean Copper Commission (Cochilco)](https://www.cochilco.cl/)
-- [London Metal Exchange](https://www.lme.com/)
-- Copper Council exchange-stock tables
-- Statista refinery-production data, used as a validation source
-
-## Limitations
-
-Exchange inventories are visible exchange stocks, not total global physical inventories. Some fundamental series are annual while market series are monthly. Source data may be revised, restricted, or subject to different reporting conventions. These limitations are documented in the project metadata and considered in interpretation.
+1. An evidence-based five-year copper outlook.
+2. A risk and factor analysis of the current portfolio.
+3. Three alternative portfolio allocations, their assumptions, benchmark comparisons, and scenario/stress-test results.
 
 ## Disclaimer
 
-This repository is for educational and research purposes only. It does not constitute investment research, investment advice, or a recommendation to buy or sell any security, derivative, commodity, or fund.
+This repository documents a personal research and learning project. It does not constitute investment, financial, legal, or tax advice. Historical data and model outputs do not guarantee future results.
